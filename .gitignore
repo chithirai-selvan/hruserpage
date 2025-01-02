@@ -1,1 +1,21 @@
-node_modules
+# Node modules
+node_modules/
+
+# Build folder (useful for production builds)
+build/
+
+# .env file (used for sensitive environment variables)
+.env
+
+# Logs
+*.log
+
+# IDE settings (specific to VS Code)
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# npm package lock file (optional, but often included)
+package-lock.json
